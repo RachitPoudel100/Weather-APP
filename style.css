@@ -51,6 +51,42 @@ input#search-bar{
 button:hover{
     background:#7c7c7c2b ;
 }
-h1.temp{
+h1.celcius{
     margin: 0;
+}
+span#humidity{
+    padding: 9px;
+}
+
+p{
+    margin: 0px;
+    padding: 6px;
+    justify-content: space-between;
+    font-weight: 500;
+}
+span#winds{
+    padding: 9px;
+    font-weight: 400;
+}
+
+img{
+    /* margin-left: 12px; */
+    width: 150px;
+    /* padding: 10; */
+    justify-content: center;
+}
+#footer{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#description{
+    text-align: center;
+    font-weight: 600;
+}
+#error{
+    text-align: center;
+    color: crimson;
+    margin: 20px;
+    display: none;
 }
